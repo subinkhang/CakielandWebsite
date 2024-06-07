@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Redirect;
 use App\Exports\ExportBillData;
 use Maatwebsite\Excel\Facades\Excel;
 use Maatwebsite\Excel\Excel as ExcelExcel;
-session_start();
+
 
 class AdminListBillController extends Controller
 {

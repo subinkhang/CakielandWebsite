@@ -9,7 +9,6 @@ use App\Http\Requests;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
-session_start();
 
 class AccountController extends Controller
 {

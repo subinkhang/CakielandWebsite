@@ -10,8 +10,6 @@ use Illuminate\Support\Facades\Redirect;
 use App\Models\Post;
 use App\Models\Product;
 
-session_start();
-
 //     // Lấy category_id của sản phẩm hiện tại
 //     $category_id = $product_detail->category_id;
 

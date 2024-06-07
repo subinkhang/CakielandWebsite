@@ -9,8 +9,6 @@ use App\Http\Requests;
 use Illuminate\Support\Facades\Redirect;
 use App\Models\Voucher;
 
-session_start();
-
 class CheckoutController extends Controller
 {
     public function index()

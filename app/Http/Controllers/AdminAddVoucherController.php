@@ -8,8 +8,6 @@ use Session;
 use App\Http\Requests;
 use Illuminate\Support\Facades\Redirect;
 
-session_start();
-
 class AdminAddVoucherController extends Controller
 {
     public function add_voucher()

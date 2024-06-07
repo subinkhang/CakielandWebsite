@@ -9,8 +9,6 @@ use App\Http\Requests;
 use Illuminate\Support\Facades\Redirect;
 use App\Models\Product;
 
-session_start();
-
 class ProductListController extends Controller
 {
     public function showCategory(Request $request, $category_id)

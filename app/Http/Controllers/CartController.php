@@ -8,9 +8,7 @@ use Session;
 use App\Http\Requests;
 use Illuminate\Support\Facades\Redirect;
 use App\Models\Product;
-use Carbon\Carbon; // Import Carbon để xử lý ngày tháng
-
-session_start();
+use Carbon\Carbon;
 
 class CartController extends Controller
 {
