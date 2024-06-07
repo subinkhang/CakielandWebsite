@@ -1,0 +1,40 @@
+.pagination {
+    display: inline-block;
+}
+
+.pagination li {
+    color: black;
+    float: left;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 5px; /* Add horizontal margin */
+}
+
+.pagination li.active {
+    background-color: #FBC31C;
+    color: white;
+    /* padding: 10px 7px 8px 16px; */
+    border-radius: 5px;
+    /* margin-left: 16px; */
+    text-align: center; /* Horizontally center the text */
+    line-height: 42px;
+    width: 45px; /* Make it the same width as the normal buttons */
+}
+
+.pagination a:hover:not(.active) {
+background-color: #ddd;
+border-radius: 5px;
+}
+
+.nexttext {
+    width: 45px;
+}
+
+.activetext {
+    padding-right: 5px;
+}
+
+.unactivetext {
+    width: 45px;
+}
