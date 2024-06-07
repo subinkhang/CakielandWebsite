@@ -24,7 +24,7 @@ new class extends Component {
         <link rel="stylesheet" href="{{ asset('frontend/css/homepage.css') }}">
         <link rel="stylesheet" href="{{ 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' }}">
         <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     </head>
 
     <body>
